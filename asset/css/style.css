@@ -93,6 +93,14 @@ li {
     gap: 2em;
     flex-direction: column;
 }
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51, 129, 51);
+    padding: 1em;
+    align-items: center;
+    color: white;
+}
 
 /* for desktob and tab*/
 @media only screen and (min-width: 768px) {
