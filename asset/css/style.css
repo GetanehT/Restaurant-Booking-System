@@ -17,14 +17,13 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    background-color: #5b5c5e;
+    background-color: white;
 
 }
 
-section {
+.navbar {
     background-color: #f8f8f8; 
     padding: 20px;
-    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     width: 100%;
 }
@@ -39,7 +38,7 @@ ul {
 }
 
 li {
-    font-size: 18px;
+    font-size: 22px;
     color: #333; 
     margin-bottom: 10px;
     cursor: pointer;
@@ -48,4 +47,58 @@ li {
     padding: 8px;
     border-radius: 4px;
     transition: background-color 0.3s ease;
+}
+.title-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.title-container {
+    background-color:antiquewhite;
+    padding: 3em;
+    display: flex;
+    gap: 1em;
+   flex-direction: column;
+   align-items: flex-start;
+}
+.title {
+    font-size: 3em;
+}
+.description {
+    font-size: 2em;
+}
+
+.reservation-btn {
+
+    background-color: rgb(51, 129, 51);
+ font-size: 1.5em;
+ border: 1px solid rgb(51, 129, 51);
+ padding: 0.5em 1em 0.5em 1em ;
+ border-radius: 1.5em;
+ color: white;
+
+}
+
+
+
+/* for desktob and tab*/
+@media only screen and (min-width: 768px) {
+.title {
+    font-size: 6rem;
+    
+}
+    .title-container {
+        padding: 6em;
+    }
+    .description {
+        font-size: 3em;
+    }
+    
+
+
+
+
+
+    }
 }
