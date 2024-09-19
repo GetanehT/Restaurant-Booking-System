@@ -27,6 +27,10 @@ body {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
 ul {
     list-style-type: none; 
     padding: 0;
@@ -34,6 +38,10 @@ ul {
     display: flex;
   justify-content: center;
 
+}
+
+.active {
+    border-bottom: 1px solid #f5eeee;
 }
 
 li {
@@ -48,6 +56,10 @@ li {
     transition: background-color 0.3s ease;
 }
 .title-section{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Btvff3rL3WJ-CUWSeg9ZU3RianXhEy-d2Q&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,6 +105,37 @@ li {
     gap: 2em;
     flex-direction: column;
 }
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+
+  }
+  .menu-item {
+    display : flex;
+    justify-content: space-between;
+  
+  }
 footer {
     display: flex;
     justify-content: space-between;
