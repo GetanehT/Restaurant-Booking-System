@@ -85,7 +85,7 @@ li {
     background-color: rgb(51, 129, 51);
  font-size: 1.5em;
  border: 1px solid rgb(51, 129, 51);
- padding: 0.5em 1em 0.5em 1em ;
+ padding: 0.75em 1em 0.75em 1.5em ;
  border-radius: 1.5em;
  color: white;
 
@@ -94,7 +94,7 @@ li {
 #contact {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     flex-direction: column;
     gap: 2em;
 }
@@ -109,8 +109,8 @@ li {
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    background-color: #eee;
-    color: #444;
+    background-color: #e67e22;
+    color: white;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -118,6 +118,7 @@ li {
     border: none;
     outline: none;
     transition: 0.4s;
+    margin-bottom: 10px;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -134,6 +135,8 @@ li {
   .menu-item {
     display : flex;
     justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
   
   }
 footer {
