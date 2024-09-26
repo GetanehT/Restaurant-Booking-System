@@ -128,7 +128,7 @@ li {
     width: 100%;
     text-align: center;
     text-shadow: 2em;
-    
+
     font-size: 18px;
     border: none; 
     outline: none;
@@ -154,6 +154,72 @@ li {
     border-bottom: 1px solid #eee;
   
   }
+/*--------Booking section ----------*/
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .booking-section {
+    /* max-width: 600px; */
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  #success-message {
+    text-align: center;
+    color: #28a745;
+    margin-top: 20px;
+  }
+  
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -182,4 +248,16 @@ footer {
         gap: 2em;
         flex-direction: row;
     }
+    .booking-form-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+      }
+      .booking-form-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
     }
