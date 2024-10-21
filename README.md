@@ -168,7 +168,7 @@ Features
   interactive behavior.
 
   
-  ### Samsung page (samsung.html)
+  ### Restaurant Reservation System (Reservation.html)
 
 ![samsung page](asset/images/samsung.png)
 
@@ -210,22 +210,6 @@ This README provides a comprehensive guide for the Restaurant Reservation System
    devices, including desktops, tablets, and smartphones.
 *  Utilizes meta viewport tags and CSS to ensure a seamless 
   user experience on all screen sizes.
-
- 
-
-
-
-Overview
-The About us  page focuses specifically on gives us customers feedback form and gives contact information and working hours and addres.
-Features
-*	Responsive Navigation Menu
-* A responsive navigation bar that allows users to navigate to 
-  different pages (Home, iPhone, Samsung, About Us) on the site.
-* Includes a mobile-friendly menu that toggles open/close using 
-  a checkbox and a hamburger icon.
-*	Main Content: A feedback form that allows users to provide their first name, last name, email address, and feedback.
-* Includes a textarea where users can describe how the website can improve their experience.
-* Form submission handled via a POST request to an external service (https://formdump.codeinstitute.net).
   
 ### Contact Information
 * A detailed contact section providing business hours (opening/closing times), phone number, email, and physical address.
@@ -243,18 +227,16 @@ Features
 * Utilizes meta viewport tags and CSS to ensure a user-friendly experience across devices.
   
 ### Future Implementations 
-As part of continuous improvement and feature enhancement, several functionalities and optimizations can be added to this smartphone deal website to further elevate user experience, business efficiency, and overall site performance. Here is a roadmap for future implementations:
-1. E-Commerce Integration
-* Shopping Cart and Checkout System: Implement a full e- 
-  commerce solution that includes a shopping cart, order 
-  summary, and secure checkout using payment gateways like 
-  PayPal, Stripe, or Square.
-* Product Filtering and Search: Allow users to filter products 
-  by price, brand, and other features such as camera quality, 
-  storage, and color options.
-* Wishlist Functionality: Enable users to create wishlists for 
-  saving products they are interested in, encouraging future 
-  purchases.
+1. User Authentication
+* Feature: Allow users to create accounts to manage their 
+  reservations.
+* Benefit: Users can view, modify, or cancel their existing 
+  reservations and receive personalized offers or promotions.
+2. Table Management System
+* Feature: Implement a backend system for restaurant staff to 
+  manage table availability.
+* Benefit: Allows for real-time updates on table availability, 
+  reducing double bookings and improving reservation accuracy.
 
  ### File Structure
 
