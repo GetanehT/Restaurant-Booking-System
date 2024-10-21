@@ -5,6 +5,7 @@ Restaurant Booking System
 
 
 Project Overview
+
 Welcome to the Restaurant Booking System! This project allows users to browse the menu, make reservations, and view restaurant contact information.
 
 Table of Contents
@@ -67,8 +68,7 @@ Google Fonts was used to import the chosen fonts for use in the site.
 Content
 Home Page (index.html)
 Smartphones Deal Webpage
-This project is a fully responsive webpage designed to showcase the latest deals on smartphones, including brands like Apple and Samsung. The site offers a clean and professional design with structured content sections highlighting exclusive deals, featured promotions, and limited-time offers. It is ideal for a mobile phone retail business aiming to promote its offerings to a wide range of customers.
-
+The Ethiopian Flavors Restaurant Booking System is a responsive web application designed to provide an intuitive and user-friendly platform for restaurant customers to view the menu, check opening hours, and make reservations. The site features a clean and modern design, with a focus on accessibility and performance across devices.
 ![home page](https://github.com/user-attachments/assets/d84c1af9-48d4-451a-86a5-aa74872ec1b5)
 
 
@@ -77,19 +77,15 @@ This project is a fully responsive webpage designed to showcase the latest deals
 
 Features
 1. Responsive Navigation Bar
-* The header includes a logo and a navigation menu with links 
-  to different sections such as Home, iPhone, Samsung, and 
-   About Us.
-* A hamburger-style menu appears on smaller screens for mobile- 
-  friendliness, providing a seamless browsing experience across 
-  all devices.
-2. SEO and Metadata
+*  Simple and clear navigation to Home, Menu, and Reservation 
+  pages.
+2. Menu Section: Organized using an accordion for easy browsing 
+   of menu items.
+3. SEO and Metadata
 * Meta tags for description and keywords are included to 
  optimize the page for search engines, improving 
  discoverability.
-* Keywords such as "smartphone deals," "best smartphone 
-  offers," and "mobile phone sales" target customers looking 
-  for great deals on mobile phones.
+* Keywords such as Ethiopian restaurant, Ethiopian food, restaurant booking, online reservation, Ethiopian cuisine, food in Berlin, Ethiopian flavors, traditional Ethiopian dishes, African cuisine, restaurant Berlin.
 3. Favicon and Web Manifest
 * The page includes a favicon for brand recognition on various 
   devices and platforms.
@@ -98,15 +94,10 @@ Features
   users with an app-like experience when installed on their 
   devices.
 4. Content Sections
-* Welcome Section: Provides an introductory message and 
-  outlines the key benefits of shopping with the store, 
-  including exclusive offers, top brands, and fast shipping.
-* Featured Deals: Highlights limited-time promotions, such as 
-  savings on iPhone 14 Pro Max and a free pair of Galaxy Buds 
-  with the purchase of a Samsung Galaxy S23 Ultra.
-* Limited-Time Offers: Displays exciting promotions like buy- 
-  one-get-one-free deals, trade-in programs, and flexible 
-  monthly payment plans.
+*Title: Large and prominent text, conveying your restaurant's brand (e.g., "Ethiopian Flavors").
+Subtext: A tagline or inviting phrase (e.g., "Come and Taste...").
+Call-to-Action: A button that encourages users to take immediate action, such as "Reserve Now" or "Order Online."
+
 5. User-Centered Design
 * Mobile-Friendly: The site is fully responsive, ensuring a 
   smooth user experience on all devices, including desktops, 
