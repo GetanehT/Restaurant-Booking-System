@@ -175,37 +175,32 @@ Features
 
 
 Overview
-The Samsung page focuses specifically on deals and offers related to Samsung Phone models.
-FeaturesFeatures
-1. Responsive Navigation Menu
-* A responsive navigation bar with links to various sections of 
-  the site, including Home, iPhone, Samsung, and About Us.
-* Hamburger icon for mobile-friendly navigation.
-2. SEO Optimizations
-* Metadata (description and keywords) added to improve search 
-  engine rankings for smartphone deals.
-* Optimized for keywords like "smartphone deals," "Samsung," 
-   and "mobile phone sales."
-3. Smartphone Deals Section
-*  A dedicated section showcasing various Samsung models with 
-   images, descriptions, and prices.
-*  Each phone model has an accompanying description detailing 
-   its features and price.
-*  Models featured include Samsung Ultra, Galaxy S24, Samsung 
-    23, and others.
-   
-4. Image Gallery
-*  An image gallery displaying multiple Samsung smartphone 
-   models with their respective descriptions and prices.
-*  User-friendly layout that allows users to view different 
-   phones easily.
-5. Social Media Links
-*  Social media links (Facebook, YouTube, Instagram, and 
-   Twitter) are integrated into the footer.
-*  Each link opens in a new tab and is accompanied by an 
-   appropriate Font Awesome icon for better user experience.
-   
+
+This README provides a comprehensive guide for the Restaurant Reservation System implemented in the HTML file above. The system allows customers to book tables at the restaurant and offers essential information such as contact details and operating hours.
+
+###Features
+1.User-Friendly Interface: The system has an intuitive layout, 
+  making it easy for users to navigate and complete their 
+  reservations.
+
+2.Reservation Form: Users can fill out a form to book a table 
+  by providing their name, email, phone number, reservation 
+  date, time, number of guests, and any special requests.
+
+3. Contact Information: The page displays essential contact 
+   details, including phone number, email, and physical 
+   address, as well as the restaurant's operating hours.
+
+4.Success Message: Upon successful submission of the 
+  reservation form, users receive a confirmation message 
+  thanking them for their reservation.
+
+5.Social Media Links: The footer includes links to various 
+  social media platforms for additional connectivity and 
+  engagement with customers.
+  
 6. Footer Section
+   
 * The footer contains social media links, making it easy for 
   users to connect with the brand on various platforms.
 * Fully responsive and visually appealing icons powered by Font 
@@ -216,9 +211,7 @@ FeaturesFeatures
 *  Utilizes meta viewport tags and CSS to ensure a seamless 
   user experience on all screen sizes.
 
- ### About us page (about_us.html)
-
-![about_us page](https://github.com/user-attachments/assets/436d9089-3f6f-4eb4-b0da-109712a7a3af)
+ 
 
 
 
