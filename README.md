@@ -95,9 +95,9 @@ Features
   devices.
 4. Content Sections
 *Title: Large and prominent text, conveying your restaurant's brand (e.g., "Ethiopian Flavors").
-Subtext: A tagline or inviting phrase (e.g., "Come and Taste...").
-Call-to-Action: A button that encourages users to take immediate action, such as "Reserve Now" or "Order Online."
-
+* Subtext: A tagline or inviting phrase (e.g., "Come and Taste...").
+* Call-to-Action: A button that encourages users to take immediate action, such as "Reserve Now" or "Order Online."
+* User Experience: This draws visitors in right away and directs them to take immediate action (booking a table or viewing the menu).
 5. User-Centered Design
 * Mobile-Friendly: The site is fully responsive, ensuring a 
   smooth user experience on all devices, including desktops, 
@@ -112,57 +112,61 @@ Call-to-Action: A button that encourages users to take immediate action, such as
 * Links open in new tabs for uninterrupted browsing.
   
   
-### Brand Pages
-### IPhone Page (iphone.html)
+### Pages
+### Menu Page (menu.html)
 
 ![iphone page](asset/images/iphonepage.png)
 
 
 Overview
-The iPhone page focuses specifically on deals and offers related to Apple's iPhone models.
+
 Features
 
-1. Responsive Navigation Menu
-* The header contains a navigation bar with links to various 
- sections of the site, such as Home, iPhone, Samsung, and About 
- Us.
-* A hamburger menu icon appears on smaller screen sizes for 
- improved mobile navigation.
-2. Search Engine Optimization (SEO)
-* Meta tags (description and keywords) are added to optimize 
-  the page for search engines, targeting keywords like "iPhone 
-  deals," "smartphone offers," and "mobile phone sales."
-* The webpage is optimized for search engines to improve 
-   visibility.
-3. iPhone Deals Section
-* A dedicated section to highlight the latest deals on various 
-  iPhone models.
-* Each product is accompanied by high-quality images, detailed 
-  descriptions, and prices, ensuring that users can easily 
-  browse through the options.
-* Featured models include iPhone 15 Pro, iPhone 15 Pro Max, 
-  iPhone 14, and more.
-4. Image Gallery
-* A clean and user-friendly gallery showcasing different iPhone 
-  models.
-* Each image is paired with a product name, a brief 
-  description, and its price.
-* This layout ensures that users can quickly find the product 
-  that suits their needs.
-5. Social Media Integration
-* Social media icons are placed in the footer section, linking 
-  to the brand's Facebook, YouTube, Instagram, and Twitter 
-   pages.
-* These links open in a new tab for convenience and are 
-   accessible via Font Awesome icons.
-* Fully responsive icons improve the site's interactivity and 
-  engagement.
-6. Mobile-Friendly Design
-* The webpage is responsive, offering an optimal user 
-   experience across desktops, tablets, and mobile devices.
-* CSS and viewport meta tags are used to ensure that the page 
-  scales well on different devices, ensuring a great browsing 
-  experience.
+1.Head Section:
+
+* Defines the metadata, character set, viewport settings for 
+  responsiveness, links to the favicon, and stylesheets.
+  Includes a reference to the website’s main CSS file 
+  (style.css) and a title for the webpage.
+  
+2.Navigation Bar (navbar):
+
+* Simple navigation with an unordered list for links to 
+  different pages (home, menu, reservation).
+* The class="active" marks the currently active page, i.e., the 
+  menu page in this case.
+
+3.Menu Section:
+
+* Accordion-style menu: The items are grouped by categories 
+  (Starter, Main Menu, Cocktails, etc.), which can be expanded 
+   or collapsed.
+* Each menu item has a name, description (in three languages: 
+  Amharic, English, and German), and price.
+* You use <button class="accordion"> for the menu categories 
+   and the <div class="panel"> for expandable content.
+
+  4. Contact Section:
+
+* Displays restaurant hours, contact details (phone and email), 
+  and the address.
+* Structured using tables for hours and separate divs for 
+   contact information.
+5.Footer:
+
+* Contains copyright information and social media links using 
+  icons from Font Awesome.
+* The social media links are wrapped in a tags that open in a 
+  new tab (target="_blank"), with appropriate ARIA labels for 
+   accessibility.
+6. JavaScript Includes:
+
+* The script for Font Awesome is included via CDN for social 
+  media icons.
+* A custom JS file is referenced (./asset/js/script.js), likely 
+  for enabling the accordion menu functionality and other 
+  interactive behavior.
+
   
   ### Samsung page (samsung.html)
 
