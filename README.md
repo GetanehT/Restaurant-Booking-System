@@ -43,8 +43,8 @@ Table of Contents
 
 As the pages of the site have a background image, I wanted to keep the colour scheme used on the site quite small so as to not overwhelm users.
 
-* I have used `#ffffff` & `##000000` as the primary and secondary colours used for the sites text.
-* I have used `##5b5c5e` as the overlay used over the sites background image.
+* I have used `#ffffff` as the primary and secondary colours used for the sites text.
+* I have used `##000000`  as the overlay used over the sites background image.
 
 ### Typography
 
@@ -57,10 +57,15 @@ Google Fonts was used to import the chosen fonts for use in the site.
 * Social media links for better connectivity.
 
 #### The Home Page
-Content
-Home Page (index.html)
-Smartphones Deal Webpage
-The Ethiopian Flavors Restaurant Booking System is a responsive web application designed to provide an intuitive and user-friendly platform for restaurant customers to view the menu, check opening hours, and make reservations. The site features a clean and modern design, with a focus on accessibility and performance across devices.
+* Content
+* Home Page (index.html)
+Ethiopian Flavors Restaurant Webpage
+* The Ethiopian Flavors Restaurant Booking System is a 
+  responsive web application designed to provide an intuitive 
+  and user-friendly platform for restaurant customers to view 
+  the menu, check opening hours, and make reservations. The 
+ site features a clean and modern design, with a focus on 
+  accessibility and performance across devices.
 
 
 ![home view](https://github.com/GetanehT/Restaurant-Booking-System/blob/main/asset/images/homep.png)
