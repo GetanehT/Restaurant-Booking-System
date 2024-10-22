@@ -186,21 +186,28 @@ Experience the rich heritage of Ethiopian cuisine, where every bite tells a stor
   ### Restaurant Reservation System (Reservation.html)
 
 
-![Reservation page](https://github.com/GetanehT/Restaurant-Booking-System/blob/main/asset/images/reserv.png)
-
-
-
-
-
 ![Reservation page](https://github.com/GetanehT/Restaurant-Booking-System/blob/main/asset/images/flavor_reser.png)
 
 
 
-###Overview
+
+
+
+
+
+
+
+
+
+![Reservation page](https://github.com/GetanehT/Restaurant-Booking-System/blob/main/asset/images/reserv.png)
+
+
+
+### Overview
 
 This README provides a comprehensive guide for the Restaurant Reservation System implemented in the HTML file above. The system allows customers to book tables at the restaurant and offers essential information such as contact details and operating hours.
 
-###Features
+### Features
 1.User-Friendly Interface: The system has an intuitive layout, 
   making it easy for users to navigate and complete their 
   reservations.
