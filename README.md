@@ -43,7 +43,7 @@ Table of Contents
 
 As the pages of the site have a background image, I wanted to keep the colour scheme used on the site quite small so as to not overwhelm users.
 
-* I have used `#ffffff` as the primary and secondary colours used for the sites text.
+* I have used ` rgb(51, 129, 51)` as the primary and secondary colours used for the sites text.
 * I have used `##000000`  as the overlay used over the sites background image.
 
 ### Typography
