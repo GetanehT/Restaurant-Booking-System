@@ -119,7 +119,7 @@ Features
 ### Pages
 ### Menu Page (menu.html)
 
-https://github.com/GetanehT/Restaurant-Booking-System/blob/main/asset/images/menus.png
+![menu_page]https://github.com/GetanehT/Restaurant-Booking-System/blob/main/asset/images/menus.png
 
 
 
@@ -192,7 +192,7 @@ Experience the rich heritage of Ethiopian cuisine, where every bite tells a stor
 
 
 
-![Reservation page](asset/images/samsung.png)
+![Reservation page](https://github.com/GetanehT/Restaurant-Booking-System/blob/main/asset/images/flavor_reser.png)
 
 
 
@@ -283,11 +283,12 @@ This README provides a comprehensive guide for the Restaurant Reservation System
 * [Google Fonts](https://fonts.google.com/) - To import the 
   fonts used on the website.
 
-* *[Favicon.io](https://favicon.io/) To create favicon.
+* [Favicon.io](https://favicon.io/) To create favicon.
 
-* [JavaScript] Handles the interactive accordion menu and form 
+* [JavaScript](http://javascript.com) Handles the interactive 
+  accordion menu and form 
                 validation.
-* [Fetch API] Sends form data to the backend asynchronously.
+* Fetch API Sends form data to the backend asynchronously.
 * [Heroku](heroku.com) The API endpoint is hosted on Heroku for 
     handling reservations.
 
@@ -464,9 +465,9 @@ Footer
 * Social Media Links: Icons linking to the store's profiles on 
  Facebook, YouTube, Instagram, and Twitter.
 
-Contributing
+* Contributing
 
-Contributions are welcome! Please follow these steps:
+* Contributions are welcome! Please follow these steps:
 1.	Fork the repository.
 2.	Create a new branch:
         bash Copy code
@@ -480,6 +481,7 @@ Contributions are welcome! Please follow these steps:
 5.	Open a pull request.
 
 ### Testing 
+
 This section outlines the key testing strategies and approaches used to ensure that the Restaurant Reservation System functions correctly. Testing is crucial to verify that all components of the system are working as expected and provide a seamless user experience.
 
 ### Manual Testing
@@ -518,6 +520,7 @@ This section outlines the key testing strategies and approaches used to ensure t
    respective pages.
 
 ### Functional Testing
+
 * Functional testing checks if the system's features work 
   according to the requirements.
 
@@ -528,8 +531,8 @@ This section outlines the key testing strategies and approaches used to ensure t
   email format, phone number format, required fields).
 * Form Submission:
 
-*Simulate form submission with different input scenarios (e.g., 
-   valid data, invalid data, missing fields).
+* Simulate form submission with different input scenarios 
+   (e.g., valid data, invalid data, missing fields).
 * Ensure that correct error messages are shown for missing or 
   invalid data.
 *  Verify successful form submission leads to a confirmation 
@@ -574,17 +577,19 @@ Ease of Navigation:
 * All styling, layouts, and features (accordion, form) work the 
   same.
     The booking form behaves identically in each browser.
-5. Performance Testing
+  
+### Performance Testing
+   
 Performance testing evaluates the system's response times and overall performance.
 
-** Key Performance Metrics:
-**  Load Time:
+* Key Performance Metrics:
+*  Load Time:
 
-** Ensure that pages load quickly, especially the reservation 
+* Ensure that pages load quickly, especially the reservation 
     form and menu items.
-** Form Submission Speed:
+* Form Submission Speed:
 
-** Test the time it takes from form submission to the 
+* Test the time it takes from form submission to the 
    appearance of the success message.
    
 ### Security Testing
