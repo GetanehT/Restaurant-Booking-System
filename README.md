@@ -266,7 +266,7 @@ This README provides a comprehensive guide for the Restaurant Reservation System
 
 
 
-## Technologies Used
+### Technologies Used
 ### Languages Used
 *   HTML5: Structuring the content of the pages.
 *   CSS3: Custom styling, layout, and responsiveness.
@@ -302,7 +302,7 @@ This README provides a comprehensive guide for the Restaurant Reservation System
   
 ### Installation
 
-###Deployment & Local Development
+### Deployment & Local Development
 
 ### Deployment
 
@@ -347,7 +347,7 @@ To clone the repository:
 5.Type 'git clone' into the terminal and then paste the 
   link you copied in step 3. Press enter.
   	
-###Usage Guide for Reservation System
+### Usage Guide for Reservation System
 
 This guide will walk you through the process of using the Restaurant Reservation System, from making a reservation to contacting the restaurant for further assistance.
 
@@ -479,7 +479,7 @@ Contributions are welcome! Please follow these steps:
         git push origin feature-branch
 5.	Open a pull request.
 
-###Testing 
+### Testing 
 This section outlines the key testing strategies and approaches used to ensure that the Restaurant Reservation System functions correctly. Testing is crucial to verify that all components of the system are working as expected and provide a seamless user experience.
 
 ### Manual Testing
@@ -599,7 +599,7 @@ Ensure no malicious code (e.g., SQL injection) can be entered in the form fields
 
 Verify that the website uses HTTPS to secure user data, especially on the booking form page.
 
-###Conclusion
+### Conclusion
 
 The Restaurant Reservation System is designed to provide a user-friendly experience for booking tables and engaging with the restaurant. If you encounter any issues or have suggestions for improvements, please reach out to the restaurant through the provided contact methods. Enjoy your meal!
 
@@ -607,7 +607,7 @@ The Restaurant Reservation System is designed to provide a user-friendly experie
 
 I would like to acknowledge the following people:
 
-1.jubri My code institute Mentor 
-2. Mikyas For taking the time to walk through my code with me 
+* jubri My code institute Mentor 
+* Mikyas For taking the time to walk through my code with me 
    when I was struggling with adding event listeners.
-3. All student supporter 
+* All student supporter in code institute 
