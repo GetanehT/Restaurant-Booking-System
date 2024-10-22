@@ -124,23 +124,23 @@ Features
 ### Pages
 ### Menu Page (menu.html)
 
-![menu_page]https://github.com/GetanehT/Restaurant-Booking-System/blob/main/asset/images/menus.png
+![menu_page](https://github.com/GetanehT/Restaurant-Booking-System/blob/main/asset/images/menus.png)
 
 
 
 
 
 
-![Menu page](/workspace/Restaurant-Booking-System/asset/images/flavor_menu.png)
+![Menu page](https://github.com/GetanehT/Restaurant-Booking-System/blob/main/asset/images/flavor_menu.png)
 
-###Overview
+### Overview
 
 Experience the rich heritage of Ethiopian cuisine, where every bite tells a story of tradition, culture, and family.
  menu offers a wide array of authentic dishes crafted with love, using spices and ingredients that bring the taste of Ethiopia to your plate. 
 
 
 
-###Features
+### Features
 
 1.Head Section:
 
