@@ -81,7 +81,8 @@ li {
 }
 
 .reservation-btn {
-
+  font-family: Arial, sans-serif;
+  font-size: 16px;
     background-color: rgb(51, 129, 51);
  font-size: 1.5em;
  border: 1px solid rgb(51, 129, 51);

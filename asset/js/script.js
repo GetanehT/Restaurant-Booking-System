@@ -1,3 +1,7 @@
+
+function openReservationPage() {
+  window.location.href = 'https://8000-getaneht-restaurantbook-3jwh7swcata.ws.codeinstitute-ide.net/reservation.html';
+}
 var acc = document.getElementsByClassName("accordion");
 var i;
 
