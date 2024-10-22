@@ -245,25 +245,33 @@ This README provides a comprehensive guide for the Restaurant Reservation System
 
 
 ### Technologies Used
-*	HTML5 : The core structure of the webpage.
-*	CSS3:Used for styling and layout, ensuring the site 
-             looks modern and professional.
-*	Font: For icons in the navigation bar and footer 
-             sections.
-*	Web Manifest: For enabling Progressive Web App 
-      functionality.
+*   HTML5: Structuring the content of the pages.
+*   CSS3: Custom styling, layout, and responsiveness.
+*   Utilizes Google Fonts (Roboto and Oswald) for typography.
+*   Media queries for mobile responsiveness.
+*   JavaScript: Handles the interactive accordion menu and form 
+    validation.
+*   Font Awesome: For adding icons, such as social media links 
+    and menu icons.
+*   Google Fonts: For custom typography.
+*   Responsive Design: Ensures compatibility with various 
+     devices (mobile, tablet, desktop).
+
   
 ### Installation
 Deployment & Local Development
 ### Deployment
-* The site is deployed using GitHub Pages  (https://github.com/GetanehT/Smart-phone)
+* The site is deployed using GitHub Pages  (https://github.com/GetanehT/RESTAURANT-BOOKING-SYSTEM)
 To Deploy the site using GitHub Pages:
 1.	Login (or signup) to Github.
-2.	Go to the repository for this project, https://getaneht.github.io/Smart-phone/
+2.	Go to the repository for this project, https://getaneht.github.io/RESTAURANT-BOOKING-SYSTEM/
 3.	Click the settings button.
 4.	Select pages in the left hand navigation menu.
-5.	From the source dropdown select main branch and press save.
-6.	The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+5.	From the source dropdown select main branch and press 
+        save.
+6.	The site has now been deployed, please note that this 
+        process may take a few minutes before the site goes 
+        live.
 
 ### Local Development
 
@@ -280,79 +288,142 @@ To fork the repository:
 To clone the repository:
 
 1.	Log in (or sign up) to GitHub.
-2.	Go to the repository for this project, kera-cudmore/TheQuizArms
-3.	Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-4.	Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-5.	Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
-Usage
-Navigate through the website using the menu links to explore different sections. You can view the deals on iPhones and Samsung smartphones, provide feedback through the feedback form, and get in touch via the contact section.                                                                                                                                                                             
-### About Us Page (aboutus.html)
-Overview
-The About Us page provides information about the company, its mission, and its team.
+2.	Go to the repository for this project,RESTAURANT- 
+         BOOKING-SYSTEM
+3.	Click on the code button, select whether you would like 
+        to clone with HTTPS, SSH or GitHub CLI and copy the 
+         link shown.
+4.	Open the terminal in your code editor and change the 
+        current working directory to the location you want to 
+         use for the cloned directory.
+5.	Type 'git clone' into the terminal and then paste the 
+        link you copied in step 3. Press enter.
+  	
+###Usage Guide for Reservation System
 
-Features
+This guide will walk you through the process of using the Restaurant Reservation System, from making a reservation to contacting the restaurant for further assistance.
 
-*	Header: Same as the home page, with site logo and navigation menu.
-*	Main Content: Includes a detailed description of the company's background, mission statement, and information about the team members.
+1. Navigating the Website
+   
+*Home Page: Access the home page by clicking the "Home" link in 
+ the navigation bar. Here, you will find information about the 
+ restaurant and its offerings.
+* Menu: Click on the "Menu" link to view the restaurant's food 
+  and drink offerings. Each item includes descriptions in 
+  multiple languages and pricing.
+*Reservation: To make a reservation, click on the "Reservation" 
+ link in the navigation bar.
 
-*	Feedback Form
-Users can provide their feedback through the form, which includes fields for first name, last name, email address, and their comments.
-*	Contact Information
-Provides details on open times, contact phone number, email address, and the physical address of the store.
-*	Footer: Same as the home page, with social media links.
+2. Making a Reservation
+Step-by-Step Process
+1. Open the Reservation Section:
+
+* Once on the Reservation page, you will see the title "Book a 
+  Table."
+  
+2. Fill Out the Booking Form:
+
+Full Name: Enter your full name in the provided text field.
+Email: Provide a valid email address for confirmation.
+Phone Number: Enter your contact number.
+Select Date: Choose the date of your reservation from the date picker.
+Select Time: Pick a preferred time for your reservation.
+Number of Guests: Select the number of guests from the dropdown menu.
+Number of Tables: Specify how many tables you would like to reserve.
+Special Requests: If you have any special requests (e.g., dietary restrictions), include them in the message box.
+Submit the Form:
+
+After filling in all required fields, click the "Book Now" button to submit your reservation.
+Confirmation:
+
+* Upon successful submission, a success message will appear 
+  thanking you for your reservation. You will receive a 
+  confirmation email shortly.
+  
+3. Contacting the Restaurant
+If you have questions or need assistance:
+
+* Contact Information: You can find the restaurant's phone 
+  number and email address in the "Contact" section.
+* Open Times: Review the operating hours to ensure you contact 
+  them during business hours.
+* Example of Contact Details
+* Phone: 012 345 678 910
+* Email: email@ethioüpianflavor.com
+Address: ethiopian flavour, 16 Berliner Street, Berlin
+4. Additional Features
+* Social Media Links: Follow the restaurant on social media 
+  platforms by clicking the icons in the footer for updates and 
+  promotions.
+
+* Feedback: After your dining experience, consider leaving 
+  feedback or a review to help the restaurant improve its 
+   offerings.
+
+###Conclusion
+The Restaurant Reservation System is designed to provide a user-friendly experience for booking tables and engaging with the restaurant. If you encounter any issues or have suggestions for improvements, please reach out to the restaurant through the provided contact methods. Enjoy your meal!
 
 
 
- 
+
+
+
+                                                                                                        
+
 ### Testing
 
 To ensure that all features of the website are functioning correctly, follow these testing steps:
 
 1.	Responsive Design Testing
-o	Open the website in different browsers (Chrome, Firefox, Safari, Edge).
-o	Resize the browser window to check how the layout adapts to different screen sizes.
+o	Open the website in different browsers (Chrome, 
+        Firefox, Safari, Edge).
+o	Resize the browser window to check how the layout 
+         adapts to different screen sizes.
 o	Test on various devices (desktop, tablet, smartphone).
-2.	Form Testing
+
+3.	Form Testing
 o	Navigate to the feedback form.
-o	Fill in all fields with valid data and submit the form to ensure it processes correctly.
-o	Try submitting the form with invalid data (e.g., incorrect email format) to check validation.
-3.	Navigation Testing
-o	Click on each navigation link to ensure they redirect to the correct pages.
-o	Check if the active page is highlighted in the navigation menu.
-4.	Content Testing
+o	Fill in all fields with valid data and submit the form 
+        to ensure it processes correctly.
+o	Try submitting the form with invalid data (e.g., 
+        incorrect email format) to check validation.
+4.	Navigation Testing
+o	Click on each navigation link to ensure they redirect 
+        to the correct pages.
+o	Check if the active page is highlighted in the 
+         navigation menu.
+5.	Content Testing
 o	Review all text for typos and grammatical errors.
 o	Ensure all images load correctly.
 o	Verify all links (internal and external) work properly.
-5.	Google Maps Integration
-o	Verify that the map loads correctly and points to the correct location.
-6.	Social Media Links
-o	Click on each social media icon to ensure it opens the correct platform in a new tab.
+7.	Social Media Links
+o	Click on each social media icon to ensure it opens the 
+         correct platform in a new tab.
+  	
 Common Sections Across All Pages
 Header
-•	Logo: Links to the home page.
-•	Navigation Menu: Links to the Home, iPhone, Samsung, and About Us pages.
-Feedback Section
-•	Feedback Form: Collects user feedback, including fields for first name, last name, email address, and feedback comments.
+*	home Links to the home page.
+*	Navigation Menu: Links to the Home, Menu, Reservation 
+            
 Contact Information
-•	Open Times: Table showing the store's operating hours.
-•	Contact Details: Phone number and email address for customer inquiries.
-•	Physical Address: Store location address.
+*	Open Times: Table showing the store's operating hours.
+*	Contact Details: Phone number and email address for customer inquiries.
+*	Physical Address: Store location address.
 Footer
-•	Social Media Links: Icons linking to the store's profiles on Facebook, YouTube, Instagram, and Twitter.
+*	Social Media Links: Icons linking to the store's profiles on Facebook, YouTube, Instagram, and Twitter.
 
 Contributing
+
 Contributions are welcome! Please follow these steps:
 1.	Fork the repository.
 2.	Create a new branch:
-bash
-Copy code
-git checkout -b feature-branch
+        bash Copy code
+       git checkout -b feature-branch
 3.	Make your changes and commit them:
-bash
-Copy code
-git commit -m "Add new feature"
+       bash Copy code
+       git commit -m "Add new feature"
 4.	Push to the branch:
-bash
-Copy code
-git push origin feature-branch
+       bash
+      Copy code
+      git push origin feature-branch
 5.	Open a pull request.
