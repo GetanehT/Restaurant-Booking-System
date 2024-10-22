@@ -1,4 +1,4 @@
-# Restauran-Booking-System
+# Restaurant-Booking-System
 Restaurant Booking System
 
 ![responsive view](https://github.com/GetanehT/Restaurant-Booking-System/blob/main/asset/images/ethipian_flavorhome.png)
