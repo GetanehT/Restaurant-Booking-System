@@ -106,6 +106,13 @@ li {
     flex-direction: column;
 }
 /* Centering Menu Section */
+
+.menu-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .Menu {
     display: flex;
     flex-direction: column;
