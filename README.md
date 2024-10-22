@@ -1,8 +1,7 @@
 # Restauran-Booking-System
 Restaurant Booking System
 
-![responsive view](https://github.com/user-attachments/assets/436d9089-3f6f-4eb4-b0da-109712a7a3af)
-
+![responsive view](https://github.com/GetanehT/Restaurant-Booking-System/blob/main/asset/css/homep.png)
 
 Project Overview
 
