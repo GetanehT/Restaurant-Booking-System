@@ -40,10 +40,7 @@ Table of Contents
   * [Known Bugs](#known-bugs)
   
 * [Credits](#credits)
-  * [Code Used](#code-used)
-  * [Content](#content)
-  * [Media](#media)
-  * [Acknowledgments](#acknowledgments)
+* [Acknowledgments](#acknowledgments)
  
   ## Design
 
@@ -387,66 +384,54 @@ If you have questions or need assistance:
   feedback or a review to help the restaurant improve its 
    offerings.
 
-###Conclusion
-The Restaurant Reservation System is designed to provide a user-friendly experience for booking tables and engaging with the restaurant. If you encounter any issues or have suggestions for improvements, please reach out to the restaurant through the provided contact methods. Enjoy your meal!
-
-### Acknowledgments
-
-I would like to acknowledge the following people:
-
-* ### Acknowledgments
-
-I would like to acknowledge the following people:
-
-
-
-
-
-
-
-                                                                                                        
 
 ### Testing
 
 To ensure that all features of the website are functioning correctly, follow these testing steps:
 
-1.	Responsive Design Testing
-o	Open the website in different browsers (Chrome, 
-        Firefox, Safari, Edge).
-o	Resize the browser window to check how the layout 
-         adapts to different screen sizes.
-o	Test on various devices (desktop, tablet, smartphone).
+1.Responsive Design Testing
+	
+* Open the website in different browsers (Chrome, Firefox, 
+  Safari, Edge).
+* Resize the browser window to check how the layout adapts to 
+  different screen sizes.
+* Test on various devices (desktop, tablet, smartphone).
 
-3.	Form Testing
-o	Navigate to the feedback form.
-o	Fill in all fields with valid data and submit the form 
-        to ensure it processes correctly.
-o	Try submitting the form with invalid data (e.g., 
-        incorrect email format) to check validation.
-4.	Navigation Testing
-o	Click on each navigation link to ensure they redirect 
-        to the correct pages.
-o	Check if the active page is highlighted in the 
-         navigation menu.
-5.	Content Testing
-o	Review all text for typos and grammatical errors.
-o	Ensure all images load correctly.
-o	Verify all links (internal and external) work properly.
-7.	Social Media Links
-o	Click on each social media icon to ensure it opens the 
-         correct platform in a new tab.
+3.Form Testing
+* Navigate to the reservation form.
+* Fill in all fields with valid data and submit the form to 
+  ensure it processes correctly.
+* Try submitting the form with invalid data (e.g., incorrect 
+  email format) to check validation.
+  	
+4.Navigation Testing
+
+* Click on each navigation link to ensure they redirect 
+  to the correct pages.
+* Check if the active page is highlighted in the navigation 
+  menu.
+5.Content Testing
+* Review all text for typos and grammatical errors.
+* Ensure all images load correctly.
+* Verify all links (internal and external) work properly.
+6.Social Media Links
+* Click on each social media icon to ensure it opens the 
+ correct platform in a new tab.
   	
 Common Sections Across All Pages
 Header
-*	home Links to the home page.
-*	Navigation Menu: Links to the Home, Menu, Reservation 
+* home Links to the home page.
+* Navigation Menu: Links to the Home, Menu, Reservation 
             
 Contact Information
-*	Open Times: Table showing the store's operating hours.
-*	Contact Details: Phone number and email address for customer inquiries.
-*	Physical Address: Store location address.
+* Open Times: Table showing the store's operating hours.
+* Contact Details: Phone number and email address for customer 
+  inquiries.
+* Physical Address: Store location address.
+  
 Footer
-*	Social Media Links: Icons linking to the store's profiles on Facebook, YouTube, Instagram, and Twitter.
+* Social Media Links: Icons linking to the store's profiles on 
+ Facebook, YouTube, Instagram, and Twitter.
 
 Contributing
 
@@ -459,7 +444,19 @@ Contributions are welcome! Please follow these steps:
        bash Copy code
        git commit -m "Add new feature"
 4.	Push to the branch:
-       bash
-      Copy code
-      git push origin feature-branch
+        bash Copy code
+        git push origin feature-branch
 5.	Open a pull request.
+
+###Conclusion
+
+The Restaurant Reservation System is designed to provide a user-friendly experience for booking tables and engaging with the restaurant. If you encounter any issues or have suggestions for improvements, please reach out to the restaurant through the provided contact methods. Enjoy your meal!
+
+### Acknowledgments
+
+I would like to acknowledge the following people:
+
+1.jubri My code institute Mentor 
+2. Mikyas For taking the time to walk through my code with me 
+   when I was struggling with adding event listeners.
+3. All student supporter 
