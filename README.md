@@ -5,6 +5,7 @@ Restaurant Booking System
 
 
 Project Overview
+
 Welcome to the Restaurant Booking System! This project allows users to browse the menu, make reservations, and view restaurant contact information.
 
 Table of Contents
@@ -67,8 +68,7 @@ Google Fonts was used to import the chosen fonts for use in the site.
 Content
 Home Page (index.html)
 Smartphones Deal Webpage
-This project is a fully responsive webpage designed to showcase the latest deals on smartphones, including brands like Apple and Samsung. The site offers a clean and professional design with structured content sections highlighting exclusive deals, featured promotions, and limited-time offers. It is ideal for a mobile phone retail business aiming to promote its offerings to a wide range of customers.
-
+The Ethiopian Flavors Restaurant Booking System is a responsive web application designed to provide an intuitive and user-friendly platform for restaurant customers to view the menu, check opening hours, and make reservations. The site features a clean and modern design, with a focus on accessibility and performance across devices.
 ![home page](https://github.com/user-attachments/assets/d84c1af9-48d4-451a-86a5-aa74872ec1b5)
 
 
@@ -77,19 +77,15 @@ This project is a fully responsive webpage designed to showcase the latest deals
 
 Features
 1. Responsive Navigation Bar
-* The header includes a logo and a navigation menu with links 
-  to different sections such as Home, iPhone, Samsung, and 
-   About Us.
-* A hamburger-style menu appears on smaller screens for mobile- 
-  friendliness, providing a seamless browsing experience across 
-  all devices.
-2. SEO and Metadata
+*  Simple and clear navigation to Home, Menu, and Reservation 
+  pages.
+2. Menu Section: Organized using an accordion for easy browsing 
+   of menu items.
+3. SEO and Metadata
 * Meta tags for description and keywords are included to 
  optimize the page for search engines, improving 
  discoverability.
-* Keywords such as "smartphone deals," "best smartphone 
-  offers," and "mobile phone sales" target customers looking 
-  for great deals on mobile phones.
+* Keywords such as Ethiopian restaurant, Ethiopian food, restaurant booking, online reservation, Ethiopian cuisine, food in Berlin, Ethiopian flavors, traditional Ethiopian dishes, African cuisine, restaurant Berlin.
 3. Favicon and Web Manifest
 * The page includes a favicon for brand recognition on various 
   devices and platforms.
@@ -98,15 +94,10 @@ Features
   users with an app-like experience when installed on their 
   devices.
 4. Content Sections
-* Welcome Section: Provides an introductory message and 
-  outlines the key benefits of shopping with the store, 
-  including exclusive offers, top brands, and fast shipping.
-* Featured Deals: Highlights limited-time promotions, such as 
-  savings on iPhone 14 Pro Max and a free pair of Galaxy Buds 
-  with the purchase of a Samsung Galaxy S23 Ultra.
-* Limited-Time Offers: Displays exciting promotions like buy- 
-  one-get-one-free deals, trade-in programs, and flexible 
-  monthly payment plans.
+*Title: Large and prominent text, conveying your restaurant's brand (e.g., "Ethiopian Flavors").
+* Subtext: A tagline or inviting phrase (e.g., "Come and Taste...").
+* Call-to-Action: A button that encourages users to take immediate action, such as "Reserve Now" or "Order Online."
+* User Experience: This draws visitors in right away and directs them to take immediate action (booking a table or viewing the menu).
 5. User-Centered Design
 * Mobile-Friendly: The site is fully responsive, ensuring a 
   smooth user experience on all devices, including desktops, 
@@ -121,96 +112,95 @@ Features
 * Links open in new tabs for uninterrupted browsing.
   
   
-### Brand Pages
-### IPhone Page (iphone.html)
+### Pages
+### Menu Page (menu.html)
 
 ![iphone page](asset/images/iphonepage.png)
 
 
 Overview
-The iPhone page focuses specifically on deals and offers related to Apple's iPhone models.
+
 Features
 
-1. Responsive Navigation Menu
-* The header contains a navigation bar with links to various 
- sections of the site, such as Home, iPhone, Samsung, and About 
- Us.
-* A hamburger menu icon appears on smaller screen sizes for 
- improved mobile navigation.
-2. Search Engine Optimization (SEO)
-* Meta tags (description and keywords) are added to optimize 
-  the page for search engines, targeting keywords like "iPhone 
-  deals," "smartphone offers," and "mobile phone sales."
-* The webpage is optimized for search engines to improve 
-   visibility.
-3. iPhone Deals Section
-* A dedicated section to highlight the latest deals on various 
-  iPhone models.
-* Each product is accompanied by high-quality images, detailed 
-  descriptions, and prices, ensuring that users can easily 
-  browse through the options.
-* Featured models include iPhone 15 Pro, iPhone 15 Pro Max, 
-  iPhone 14, and more.
-4. Image Gallery
-* A clean and user-friendly gallery showcasing different iPhone 
-  models.
-* Each image is paired with a product name, a brief 
-  description, and its price.
-* This layout ensures that users can quickly find the product 
-  that suits their needs.
-5. Social Media Integration
-* Social media icons are placed in the footer section, linking 
-  to the brand's Facebook, YouTube, Instagram, and Twitter 
-   pages.
-* These links open in a new tab for convenience and are 
-   accessible via Font Awesome icons.
-* Fully responsive icons improve the site's interactivity and 
-  engagement.
-6. Mobile-Friendly Design
-* The webpage is responsive, offering an optimal user 
-   experience across desktops, tablets, and mobile devices.
-* CSS and viewport meta tags are used to ensure that the page 
-  scales well on different devices, ensuring a great browsing 
-  experience.
+1.Head Section:
+
+* Defines the metadata, character set, viewport settings for 
+  responsiveness, links to the favicon, and stylesheets.
+  Includes a reference to the website’s main CSS file 
+  (style.css) and a title for the webpage.
   
-  ### Samsung page (samsung.html)
+2.Navigation Bar (navbar):
+
+* Simple navigation with an unordered list for links to 
+  different pages (home, menu, reservation).
+* The class="active" marks the currently active page, i.e., the 
+  menu page in this case.
+
+3.Menu Section:
+
+* Accordion-style menu: The items are grouped by categories 
+  (Starter, Main Menu, Cocktails, etc.), which can be expanded 
+   or collapsed.
+* Each menu item has a name, description (in three languages: 
+  Amharic, English, and German), and price.
+* You use <button class="accordion"> for the menu categories 
+   and the <div class="panel"> for expandable content.
+
+  4. Contact Section:
+
+* Displays restaurant hours, contact details (phone and email), 
+  and the address.
+* Structured using tables for hours and separate divs for 
+   contact information.
+5.Footer:
+
+* Contains copyright information and social media links using 
+  icons from Font Awesome.
+* The social media links are wrapped in a tags that open in a 
+  new tab (target="_blank"), with appropriate ARIA labels for 
+   accessibility.
+6. JavaScript Includes:
+
+* The script for Font Awesome is included via CDN for social 
+  media icons.
+* A custom JS file is referenced (./asset/js/script.js), likely 
+  for enabling the accordion menu functionality and other 
+  interactive behavior.
+
+  
+  ### Restaurant Reservation System (Reservation.html)
 
 ![samsung page](asset/images/samsung.png)
 
 
 
 Overview
-The Samsung page focuses specifically on deals and offers related to Samsung Phone models.
-FeaturesFeatures
-1. Responsive Navigation Menu
-* A responsive navigation bar with links to various sections of 
-  the site, including Home, iPhone, Samsung, and About Us.
-* Hamburger icon for mobile-friendly navigation.
-2. SEO Optimizations
-* Metadata (description and keywords) added to improve search 
-  engine rankings for smartphone deals.
-* Optimized for keywords like "smartphone deals," "Samsung," 
-   and "mobile phone sales."
-3. Smartphone Deals Section
-*  A dedicated section showcasing various Samsung models with 
-   images, descriptions, and prices.
-*  Each phone model has an accompanying description detailing 
-   its features and price.
-*  Models featured include Samsung Ultra, Galaxy S24, Samsung 
-    23, and others.
-   
-4. Image Gallery
-*  An image gallery displaying multiple Samsung smartphone 
-   models with their respective descriptions and prices.
-*  User-friendly layout that allows users to view different 
-   phones easily.
-5. Social Media Links
-*  Social media links (Facebook, YouTube, Instagram, and 
-   Twitter) are integrated into the footer.
-*  Each link opens in a new tab and is accompanied by an 
-   appropriate Font Awesome icon for better user experience.
-   
+
+This README provides a comprehensive guide for the Restaurant Reservation System implemented in the HTML file above. The system allows customers to book tables at the restaurant and offers essential information such as contact details and operating hours.
+
+###Features
+1.User-Friendly Interface: The system has an intuitive layout, 
+  making it easy for users to navigate and complete their 
+  reservations.
+
+2.Reservation Form: Users can fill out a form to book a table 
+  by providing their name, email, phone number, reservation 
+  date, time, number of guests, and any special requests.
+
+3. Contact Information: The page displays essential contact 
+   details, including phone number, email, and physical 
+   address, as well as the restaurant's operating hours.
+
+4.Success Message: Upon successful submission of the 
+  reservation form, users receive a confirmation message 
+  thanking them for their reservation.
+
+5.Social Media Links: The footer includes links to various 
+  social media platforms for additional connectivity and 
+  engagement with customers.
+  
 6. Footer Section
+   
 * The footer contains social media links, making it easy for 
   users to connect with the brand on various platforms.
 * Fully responsive and visually appealing icons powered by Font 
@@ -220,24 +210,6 @@ FeaturesFeatures
    devices, including desktops, tablets, and smartphones.
 *  Utilizes meta viewport tags and CSS to ensure a seamless 
   user experience on all screen sizes.
-
- ### About us page (about_us.html)
-
-![about_us page](https://github.com/user-attachments/assets/436d9089-3f6f-4eb4-b0da-109712a7a3af)
-
-
-
-Overview
-The About us  page focuses specifically on gives us customers feedback form and gives contact information and working hours and addres.
-Features
-*	Responsive Navigation Menu
-* A responsive navigation bar that allows users to navigate to 
-  different pages (Home, iPhone, Samsung, About Us) on the site.
-* Includes a mobile-friendly menu that toggles open/close using 
-  a checkbox and a hamburger icon.
-*	Main Content: A feedback form that allows users to provide their first name, last name, email address, and feedback.
-* Includes a textarea where users can describe how the website can improve their experience.
-* Form submission handled via a POST request to an external service (https://formdump.codeinstitute.net).
   
 ### Contact Information
 * A detailed contact section providing business hours (opening/closing times), phone number, email, and physical address.
@@ -255,18 +227,16 @@ Features
 * Utilizes meta viewport tags and CSS to ensure a user-friendly experience across devices.
   
 ### Future Implementations 
-As part of continuous improvement and feature enhancement, several functionalities and optimizations can be added to this smartphone deal website to further elevate user experience, business efficiency, and overall site performance. Here is a roadmap for future implementations:
-1. E-Commerce Integration
-* Shopping Cart and Checkout System: Implement a full e- 
-  commerce solution that includes a shopping cart, order 
-  summary, and secure checkout using payment gateways like 
-  PayPal, Stripe, or Square.
-* Product Filtering and Search: Allow users to filter products 
-  by price, brand, and other features such as camera quality, 
-  storage, and color options.
-* Wishlist Functionality: Enable users to create wishlists for 
-  saving products they are interested in, encouraging future 
-  purchases.
+1. User Authentication
+* Feature: Allow users to create accounts to manage their 
+  reservations.
+* Benefit: Users can view, modify, or cancel their existing 
+  reservations and receive personalized offers or promotions.
+2. Table Management System
+* Feature: Implement a backend system for restaurant staff to 
+  manage table availability.
+* Benefit: Allows for real-time updates on table availability, 
+  reducing double bookings and improving reservation accuracy.
 
  ### File Structure
 
@@ -274,26 +244,53 @@ As part of continuous improvement and feature enhancement, several functionaliti
 
 
 
-### Technologies Used
-*	HTML5 : The core structure of the webpage.
-*	CSS3:Used for styling and layout, ensuring the site 
-             looks modern and professional.
-*	Font: For icons in the navigation bar and footer 
-             sections.
-*	Web Manifest: For enabling Progressive Web App 
-      functionality.
+## Technologies Used
+### Languages Used
+*   HTML5: Structuring the content of the pages.
+*   CSS3: Custom styling, layout, and responsiveness.
+
+### Frameworks, Libraries & Programs Used
+
+* [Git](https://git-scm.com/) - For version control.
+  
+* [Github](https://github.com/) - To save and store the files 
+  for the website.
+
+* [GitPod](https://gitpod.io/) - IDE used to create the site.
+
+* [Google Fonts](https://fonts.google.com/) - To import the 
+  fonts used on the website.
+
+*[Favicon.io](https://favicon.io/) To create favicon.
+
+*   Media queries for mobile responsiveness.
+*   JavaScript: Handles the interactive accordion menu and form 
+    validation.
+*   Font Awesome: For adding icons, such as social media links 
+    and menu icons.
+*   Responsive Design: Ensures compatibility with various 
+     devices (mobile, tablet, desktop).
+
   
 ### Installation
-Deployment & Local Development
+
+###Deployment & Local Development
+
 ### Deployment
-* The site is deployed using GitHub Pages  (https://github.com/GetanehT/Smart-phone)
+
+* The site is deployed using GitHub Pages  [Restauran-Booking-System] (https://github.com/GetanehT/RESTAURANT-BOOKING-SYSTEM)
+
 To Deploy the site using GitHub Pages:
-1.	Login (or signup) to Github.
-2.	Go to the repository for this project, https://getaneht.github.io/Smart-phone/
-3.	Click the settings button.
-4.	Select pages in the left hand navigation menu.
-5.	From the source dropdown select main branch and press save.
-6.	The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
+1.Login (or signup) to Github.
+2.Go to the repository for this project, [Restauran-Booking- 
+  System](https://getaneht.github.io/RESTAURANT-BOOKING-SYSTEM/)
+3.Click the settings button.
+4.Select pages in the left hand navigation menu.
+5.From the source dropdown select main branch and press 
+  save.
+6.The site has now been deployed, please note that this 
+  process may take a few minutes before the site goes live.
 
 ### Local Development
 
@@ -301,88 +298,168 @@ To Deploy the site using GitHub Pages:
 
 To fork the repository:
 
-1.	Log in (or sign up) to Github.
-2.	Go to the repository for this project,  
-3.	Click the Fork button in the top right corner.
+1.Log in (or sign up) to Github.
+2.Go to the repository for this project,  
+3.Click the Fork button in the top right corner.
    
 ### How to Clone
 
 To clone the repository:
 
-1.	Log in (or sign up) to GitHub.
-2.	Go to the repository for this project, kera-cudmore/TheQuizArms
-3.	Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-4.	Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-5.	Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
-Usage
-Navigate through the website using the menu links to explore different sections. You can view the deals on iPhones and Samsung smartphones, provide feedback through the feedback form, and get in touch via the contact section.                                                                                                                                                                             
-### About Us Page (aboutus.html)
-Overview
-The About Us page provides information about the company, its mission, and its team.
+1.Log in (or sign up) to GitHub.
+2.Go to the repository for this project,[Restauran-Booking- 
+  System] (https://github.com/GetanehT/RESTAURANT-BOOKING- 
+ SYSTEM)
+3.Click on the code button, select whether you would like 
+  to clone with HTTPS, SSH or GitHub CLI and copy the link 
+  shown.
+4.Open the terminal in your code editor and change the 
+  current working directory to the location you want to 
+  use for the cloned directory.
+5.Type 'git clone' into the terminal and then paste the 
+  link you copied in step 3. Press enter.
+  	
+###Usage Guide for Reservation System
 
-Features
+This guide will walk you through the process of using the Restaurant Reservation System, from making a reservation to contacting the restaurant for further assistance.
 
-*	Header: Same as the home page, with site logo and navigation menu.
-*	Main Content: Includes a detailed description of the company's background, mission statement, and information about the team members.
+1. Navigating the Website
+   
+* Home Page: Access the home page by clicking the "Home" link 
+  in the navigation bar. Here, you will find information about 
+  the restaurant and its offerings.
+* Menu: Click on the "Menu" link to view the restaurant's food 
+  and drink offerings. Each item includes descriptions in 
+  multiple languages and pricing.
+* Reservation: To make a reservation, click on the"Reservation" 
+  link in the navigation bar.
 
-*	Feedback Form
-Users can provide their feedback through the form, which includes fields for first name, last name, email address, and their comments.
-*	Contact Information
-Provides details on open times, contact phone number, email address, and the physical address of the store.
-*	Footer: Same as the home page, with social media links.
+2. Making a Reservation
+Step-by-Step Process
+1. Open the Reservation Section:
+
+* Once on the Reservation page, you will see the title "Book a 
+  Table."
+  
+2. Fill Out the Booking Form:
+
+* Full Name: Enter your full name in the provided text field.
+* Email: Provide a valid email address for confirmation.
+* Phone Number: Enter your contact number.
+* Select Date: Choose the date of your reservation from the 
+  date picker.
+* Select Time: Pick a preferred time for your reservation.
+* Number of Guests: Select the number of guests from the 
+  dropdown menu.
+* Special Requests: If you have any special requests (e.g., 
+  dietary restrictions), include them in the message box.
+
+* Submit the Form:
+
+* After filling in all required fields, click the "Book Now" 
+  button to submit your reservation.
+
+*Confirmation:
+
+* Upon successful submission, a success message will appear 
+  thanking you for your reservation. You will receive a 
+  confirmation email shortly.
+  
+3. Contacting the Restaurant
+
+If you have questions or need assistance:
+
+* Contact Information: You can find the restaurant's phone 
+  number and email address in the "Contact" section.
+* Open Times: Review the operating hours to ensure you contact 
+  them during business hours.
+* Example of Contact Details
+* Phone: 012 345 678 910
+* Email: email@ethioüpianflavor.com
+* Address: ethiopian flavour, 16 Berliner Street, Berlin
+  
+4. Additional Features
+* Social Media Links: Follow the restaurant on social media 
+  platforms by clicking the icons in the footer for updates and 
+  promotions.
+
+* Feedback: After your dining experience, consider leaving 
+  feedback or a review to help the restaurant improve its 
+   offerings.
+
+###Conclusion
+The Restaurant Reservation System is designed to provide a user-friendly experience for booking tables and engaging with the restaurant. If you encounter any issues or have suggestions for improvements, please reach out to the restaurant through the provided contact methods. Enjoy your meal!
+
+### Acknowledgments
+
+I would like to acknowledge the following people:
+
+* ### Acknowledgments
+
+I would like to acknowledge the following people:
 
 
 
- 
+
+
+
+
+                                                                                                        
+
 ### Testing
 
 To ensure that all features of the website are functioning correctly, follow these testing steps:
 
 1.	Responsive Design Testing
-o	Open the website in different browsers (Chrome, Firefox, Safari, Edge).
-o	Resize the browser window to check how the layout adapts to different screen sizes.
+o	Open the website in different browsers (Chrome, 
+        Firefox, Safari, Edge).
+o	Resize the browser window to check how the layout 
+         adapts to different screen sizes.
 o	Test on various devices (desktop, tablet, smartphone).
-2.	Form Testing
+
+3.	Form Testing
 o	Navigate to the feedback form.
-o	Fill in all fields with valid data and submit the form to ensure it processes correctly.
-o	Try submitting the form with invalid data (e.g., incorrect email format) to check validation.
-3.	Navigation Testing
-o	Click on each navigation link to ensure they redirect to the correct pages.
-o	Check if the active page is highlighted in the navigation menu.
-4.	Content Testing
+o	Fill in all fields with valid data and submit the form 
+        to ensure it processes correctly.
+o	Try submitting the form with invalid data (e.g., 
+        incorrect email format) to check validation.
+4.	Navigation Testing
+o	Click on each navigation link to ensure they redirect 
+        to the correct pages.
+o	Check if the active page is highlighted in the 
+         navigation menu.
+5.	Content Testing
 o	Review all text for typos and grammatical errors.
 o	Ensure all images load correctly.
 o	Verify all links (internal and external) work properly.
-5.	Google Maps Integration
-o	Verify that the map loads correctly and points to the correct location.
-6.	Social Media Links
-o	Click on each social media icon to ensure it opens the correct platform in a new tab.
+7.	Social Media Links
+o	Click on each social media icon to ensure it opens the 
+         correct platform in a new tab.
+  	
 Common Sections Across All Pages
 Header
-•	Logo: Links to the home page.
-•	Navigation Menu: Links to the Home, iPhone, Samsung, and About Us pages.
-Feedback Section
-•	Feedback Form: Collects user feedback, including fields for first name, last name, email address, and feedback comments.
+*	home Links to the home page.
+*	Navigation Menu: Links to the Home, Menu, Reservation 
+            
 Contact Information
-•	Open Times: Table showing the store's operating hours.
-•	Contact Details: Phone number and email address for customer inquiries.
-•	Physical Address: Store location address.
+*	Open Times: Table showing the store's operating hours.
+*	Contact Details: Phone number and email address for customer inquiries.
+*	Physical Address: Store location address.
 Footer
-•	Social Media Links: Icons linking to the store's profiles on Facebook, YouTube, Instagram, and Twitter.
+*	Social Media Links: Icons linking to the store's profiles on Facebook, YouTube, Instagram, and Twitter.
 
 Contributing
+
 Contributions are welcome! Please follow these steps:
 1.	Fork the repository.
 2.	Create a new branch:
-bash
-Copy code
-git checkout -b feature-branch
+        bash Copy code
+       git checkout -b feature-branch
 3.	Make your changes and commit them:
-bash
-Copy code
-git commit -m "Add new feature"
+       bash Copy code
+       git commit -m "Add new feature"
 4.	Push to the branch:
-bash
-Copy code
-git push origin feature-branch
+       bash
+      Copy code
+      git push origin feature-branch
 5.	Open a pull request.
