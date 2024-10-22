@@ -244,34 +244,53 @@ This README provides a comprehensive guide for the Restaurant Reservation System
 
 
 
-### Technologies Used
+## Technologies Used
+### Languages Used
 *   HTML5: Structuring the content of the pages.
 *   CSS3: Custom styling, layout, and responsiveness.
-*   Utilizes Google Fonts (Roboto and Oswald) for typography.
+
+### Frameworks, Libraries & Programs Used
+
+* [Git](https://git-scm.com/) - For version control.
+  
+* [Github](https://github.com/) - To save and store the files 
+  for the website.
+
+* [GitPod](https://gitpod.io/) - IDE used to create the site.
+
+* [Google Fonts](https://fonts.google.com/) - To import the 
+  fonts used on the website.
+
+*[Favicon.io](https://favicon.io/) To create favicon.
+
 *   Media queries for mobile responsiveness.
 *   JavaScript: Handles the interactive accordion menu and form 
     validation.
 *   Font Awesome: For adding icons, such as social media links 
     and menu icons.
-*   Google Fonts: For custom typography.
 *   Responsive Design: Ensures compatibility with various 
      devices (mobile, tablet, desktop).
 
   
 ### Installation
-Deployment & Local Development
+
+###Deployment & Local Development
+
 ### Deployment
-* The site is deployed using GitHub Pages  (https://github.com/GetanehT/RESTAURANT-BOOKING-SYSTEM)
+
+* The site is deployed using GitHub Pages  [Restauran-Booking-System] (https://github.com/GetanehT/RESTAURANT-BOOKING-SYSTEM)
+
 To Deploy the site using GitHub Pages:
-1.	Login (or signup) to Github.
-2.	Go to the repository for this project, https://getaneht.github.io/RESTAURANT-BOOKING-SYSTEM/
-3.	Click the settings button.
-4.	Select pages in the left hand navigation menu.
-5.	From the source dropdown select main branch and press 
-        save.
-6.	The site has now been deployed, please note that this 
-        process may take a few minutes before the site goes 
-        live.
+
+1.Login (or signup) to Github.
+2.Go to the repository for this project, [Restauran-Booking- 
+  System](https://getaneht.github.io/RESTAURANT-BOOKING-SYSTEM/)
+3.Click the settings button.
+4.Select pages in the left hand navigation menu.
+5.From the source dropdown select main branch and press 
+  save.
+6.The site has now been deployed, please note that this 
+  process may take a few minutes before the site goes live.
 
 ### Local Development
 
@@ -279,25 +298,26 @@ To Deploy the site using GitHub Pages:
 
 To fork the repository:
 
-1.	Log in (or sign up) to Github.
-2.	Go to the repository for this project,  
-3.	Click the Fork button in the top right corner.
+1.Log in (or sign up) to Github.
+2.Go to the repository for this project,  
+3.Click the Fork button in the top right corner.
    
 ### How to Clone
 
 To clone the repository:
 
-1.	Log in (or sign up) to GitHub.
-2.	Go to the repository for this project,RESTAURANT- 
-         BOOKING-SYSTEM
-3.	Click on the code button, select whether you would like 
-        to clone with HTTPS, SSH or GitHub CLI and copy the 
-         link shown.
-4.	Open the terminal in your code editor and change the 
-        current working directory to the location you want to 
-         use for the cloned directory.
-5.	Type 'git clone' into the terminal and then paste the 
-        link you copied in step 3. Press enter.
+1.Log in (or sign up) to GitHub.
+2.Go to the repository for this project,[Restauran-Booking- 
+  System] (https://github.com/GetanehT/RESTAURANT-BOOKING- 
+ SYSTEM)
+3.Click on the code button, select whether you would like 
+  to clone with HTTPS, SSH or GitHub CLI and copy the link 
+  shown.
+4.Open the terminal in your code editor and change the 
+  current working directory to the location you want to 
+  use for the cloned directory.
+5.Type 'git clone' into the terminal and then paste the 
+  link you copied in step 3. Press enter.
   	
 ###Usage Guide for Reservation System
 
@@ -305,14 +325,14 @@ This guide will walk you through the process of using the Restaurant Reservation
 
 1. Navigating the Website
    
-*Home Page: Access the home page by clicking the "Home" link in 
- the navigation bar. Here, you will find information about the 
- restaurant and its offerings.
+* Home Page: Access the home page by clicking the "Home" link 
+  in the navigation bar. Here, you will find information about 
+  the restaurant and its offerings.
 * Menu: Click on the "Menu" link to view the restaurant's food 
   and drink offerings. Each item includes descriptions in 
   multiple languages and pricing.
-*Reservation: To make a reservation, click on the "Reservation" 
- link in the navigation bar.
+* Reservation: To make a reservation, click on the"Reservation" 
+  link in the navigation bar.
 
 2. Making a Reservation
 Step-by-Step Process
@@ -323,24 +343,30 @@ Step-by-Step Process
   
 2. Fill Out the Booking Form:
 
-Full Name: Enter your full name in the provided text field.
-Email: Provide a valid email address for confirmation.
-Phone Number: Enter your contact number.
-Select Date: Choose the date of your reservation from the date picker.
-Select Time: Pick a preferred time for your reservation.
-Number of Guests: Select the number of guests from the dropdown menu.
-Number of Tables: Specify how many tables you would like to reserve.
-Special Requests: If you have any special requests (e.g., dietary restrictions), include them in the message box.
-Submit the Form:
+* Full Name: Enter your full name in the provided text field.
+* Email: Provide a valid email address for confirmation.
+* Phone Number: Enter your contact number.
+* Select Date: Choose the date of your reservation from the 
+  date picker.
+* Select Time: Pick a preferred time for your reservation.
+* Number of Guests: Select the number of guests from the 
+  dropdown menu.
+* Special Requests: If you have any special requests (e.g., 
+  dietary restrictions), include them in the message box.
 
-After filling in all required fields, click the "Book Now" button to submit your reservation.
-Confirmation:
+* Submit the Form:
+
+* After filling in all required fields, click the "Book Now" 
+  button to submit your reservation.
+
+*Confirmation:
 
 * Upon successful submission, a success message will appear 
   thanking you for your reservation. You will receive a 
   confirmation email shortly.
   
 3. Contacting the Restaurant
+
 If you have questions or need assistance:
 
 * Contact Information: You can find the restaurant's phone 
@@ -350,7 +376,8 @@ If you have questions or need assistance:
 * Example of Contact Details
 * Phone: 012 345 678 910
 * Email: email@ethioüpianflavor.com
-Address: ethiopian flavour, 16 Berliner Street, Berlin
+* Address: ethiopian flavour, 16 Berliner Street, Berlin
+  
 4. Additional Features
 * Social Media Links: Follow the restaurant on social media 
   platforms by clicking the icons in the footer for updates and 
@@ -362,6 +389,15 @@ Address: ethiopian flavour, 16 Berliner Street, Berlin
 
 ###Conclusion
 The Restaurant Reservation System is designed to provide a user-friendly experience for booking tables and engaging with the restaurant. If you encounter any issues or have suggestions for improvements, please reach out to the restaurant through the provided contact methods. Enjoy your meal!
+
+### Acknowledgments
+
+I would like to acknowledge the following people:
+
+* ### Acknowledgments
+
+I would like to acknowledge the following people:
+
 
 
 
