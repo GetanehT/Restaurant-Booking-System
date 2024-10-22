@@ -91,8 +91,10 @@ Features
   a Progressive Web App (PWA) on supported browsers, providing 
   users with an app-like experience when installed on their 
   devices.
+  
 4. Content Sections
-*Title: Large and prominent text, conveying your restaurant's brand (e.g., "Ethiopian Flavors").
+   
+* Title: Large and prominent text, conveying your restaurant's brand (e.g., "Ethiopian Flavors").
 * Subtext: A tagline or inviting phrase (e.g., "Come and Taste...").
 * Call-to-Action: A button that encourages users to take immediate action, such as "Reserve Now" or "Order Online."
 * User Experience: This draws visitors in right away and directs them to take immediate action (booking a table or viewing the menu).
@@ -113,8 +115,7 @@ Features
 ### Pages
 ### Menu Page (menu.html)
 
-![iphone page](asset/images/iphonepage.png)
-
+![iphone page](/workspace/Restaurant-Booking-System/asset/images/flavor_menu.png)
 
 Overview
 
