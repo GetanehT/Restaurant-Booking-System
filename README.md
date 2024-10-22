@@ -15,14 +15,10 @@ Table of Contents
 
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
-  * [Typography](#typography)
-  * [Imagery](#imagery)
   * [Features](#features)
     * [The Home Page](#the-home-page)
     * [The Reservation Page](#the-game-page)
     * [The Samsung Page](#the-samsung-page)
-    * [The About page](#the-about-us-page)
-    * [The 404 Error Page](#the-404-error-page)
     * [Future Implementations](#future-implementations)
   * [Accessibility](#accessibility)
 
@@ -37,8 +33,6 @@ Table of Contents
     * [How to Clone](#how-to-clone)
 
 * [Testing](#testing)
-  * [Solved Bugs](#solved-bugs)
-  * [Known Bugs](#known-bugs)
   
 * [Credits](#credits)
 * [Acknowledgments](#acknowledgments)
@@ -289,13 +283,13 @@ This README provides a comprehensive guide for the Restaurant Reservation System
 * [Google Fonts](https://fonts.google.com/) - To import the 
   fonts used on the website.
 
-*[Favicon.io](https://favicon.io/) To create favicon.
+* *[Favicon.io](https://favicon.io/) To create favicon.
 
-**JavaScript** Handles the interactive accordion menu and form 
+* [JavaScript] Handles the interactive accordion menu and form 
                 validation.
-**Fetch API**: Sends form data to the backend asynchronously.
-**Heroku**: The API endpoint is hosted on Heroku for handling 
-           reservations.
+* [Fetch API] Sends form data to the backend asynchronously.
+* [Heroku](heroku.com) The API endpoint is hosted on Heroku for 
+    handling reservations.
 
 
 *   Media queries for mobile responsiveness.
@@ -484,6 +478,126 @@ Contributions are welcome! Please follow these steps:
         bash Copy code
         git push origin feature-branch
 5.	Open a pull request.
+
+###Testing 
+This section outlines the key testing strategies and approaches used to ensure that the Restaurant Reservation System functions correctly. Testing is crucial to verify that all components of the system are working as expected and provide a seamless user experience.
+
+### Manual Testing
+
+* Manual testing involves the process of manually interacting 
+  with the system to ensure all features work as expected.
+
+* Key Areas for Manual Testing:
+* Navigation:
+
+* Ensure all links in the navigation bar (Home, Menu, 
+   Reservation) direct to the correct pages.
+* Verify that the favicon appears properly on different devices 
+   and browsers.
+* Booking Form:
+
+* Test the form validation for required fields (name, email, 
+   phone, date, time, guests, tables).
+*  Verify that the date and time pickers function correctly.
+   Ensure form submission works, and a success message is 
+    displayed.
+* Check that the form does not submit with invalid inputs 
+  (e.g., missing email, future dates).
+
+* Menu Page:
+
+* Ensure that all food and drink items display correctly with 
+  proper pricing.
+* Test the accordion functionality to ensure each section 
+  (Starter, Main Menu, Cocktails, etc.) expands and collapses.
+   Contact Section:
+
+* Verify that contact details (phone, email, address) are 
+  visible and correctly formatted.
+* Check that the social media links in the footer open the 
+   respective pages.
+
+### Functional Testing
+* Functional testing checks if the system's features work 
+  according to the requirements.
+
+* Key Functional Tests:
+* Form Validation:
+
+* Ensure that form fields validate user input correctly (e.g., 
+  email format, phone number format, required fields).
+* Form Submission:
+
+*Simulate form submission with different input scenarios (e.g., 
+   valid data, invalid data, missing fields).
+* Ensure that correct error messages are shown for missing or 
+  invalid data.
+*  Verify successful form submission leads to a confirmation 
+   message.
+* Dynamic Content Display:
+
+* Test if the "success message" section appears only after a 
+  successful booking submission.
+  
+### Usability Testing
+
+* Usability testing ensures that users can navigate and 
+  interact with the system intuitively.
+
+Key Usability Tests:
+Ease of Navigation:
+
+* Confirm that the navigation between Home, Menu, and  
+   Reservation pages is smooth and intuitive.
+
+* Mobile Responsiveness:
+
+* Test the entire site on different screen sizes (mobile, 
+  tablet, desktop) to ensure responsiveness and readability.
+  Clarity of Form Instructions:
+
+* Verify that form labels and error messages are clear and easy 
+  to understand for users.
+
+### Browser Compatibility Testing
+* Testing the application across different web browsers ensures 
+  consistent functionality.
+
+* Browsers to Test:
+* Google Chrome
+* Mozilla Firefox
+* Safari
+* Microsoft Edge
+* Opera
+* Test each browser to ensure that:
+
+* All styling, layouts, and features (accordion, form) work the 
+  same.
+    The booking form behaves identically in each browser.
+5. Performance Testing
+Performance testing evaluates the system's response times and overall performance.
+
+** Key Performance Metrics:
+**  Load Time:
+
+** Ensure that pages load quickly, especially the reservation 
+    form and menu items.
+** Form Submission Speed:
+
+** Test the time it takes from form submission to the 
+   appearance of the success message.
+   
+### Security Testing
+Security testing is vital to ensure that the system is protected against vulnerabilities.
+
+*  Key Security Checks:
+Form Input Validation:
+
+Ensure no malicious code (e.g., SQL injection) can be entered in the form fields.
+
+* HTTPS Implementation:
+
+Verify that the website uses HTTPS to secure user data, especially on the booking form page.
 
 ###Conclusion
 
