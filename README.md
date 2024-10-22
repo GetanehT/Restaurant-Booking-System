@@ -1,7 +1,9 @@
 # Restauran-Booking-System
 Restaurant Booking System
 
-![responsive view](https://github.com/GetanehT/Restaurant-Booking-System/blob/main/asset/css/homep.png)
+![responsive view](https://github.com/GetanehT/Restaurant-Booking-System/blob/main/asset/images/ethipian_flavorhome.png)
+
+
 
 Project Overview
 
@@ -66,6 +68,15 @@ Home Page (index.html)
 Smartphones Deal Webpage
 The Ethiopian Flavors Restaurant Booking System is a responsive web application designed to provide an intuitive and user-friendly platform for restaurant customers to view the menu, check opening hours, and make reservations. The site features a clean and modern design, with a focus on accessibility and performance across devices.
 
+
+![home view](https://github.com/GetanehT/Restaurant-Booking-System/blob/main/asset/css/homep.png)
+
+
+
+
+
+
+
 ![home page](https://github.com/user-attachments/asset/images/ethipian_flavorhome.png)
 
 
@@ -114,11 +125,23 @@ Features
 ### Pages
 ### Menu Page (menu.html)
 
-![iphone page](/workspace/Restaurant-Booking-System/asset/images/flavor_menu.png)
+https://github.com/GetanehT/Restaurant-Booking-System/blob/main/asset/images/menus.png
 
-Overview
 
-Features
+
+
+
+
+![Menu page](/workspace/Restaurant-Booking-System/asset/images/flavor_menu.png)
+
+###Overview
+
+Experience the rich heritage of Ethiopian cuisine, where every bite tells a story of tradition, culture, and family.
+ menu offers a wide array of authentic dishes crafted with love, using spices and ingredients that bring the taste of Ethiopia to your plate. 
+
+
+
+###Features
 
 1.Head Section:
 
@@ -168,11 +191,18 @@ Features
   
   ### Restaurant Reservation System (Reservation.html)
 
-![samsung page](asset/images/samsung.png)
+
+![Reservation page](https://github.com/GetanehT/Restaurant-Booking-System/blob/main/asset/images/reserv.png)
 
 
 
-Overview
+
+
+![Reservation page](asset/images/samsung.png)
+
+
+
+###Overview
 
 This README provides a comprehensive guide for the Restaurant Reservation System implemented in the HTML file above. The system allows customers to book tables at the restaurant and offers essential information such as contact details and operating hours.
 
@@ -261,9 +291,15 @@ This README provides a comprehensive guide for the Restaurant Reservation System
 
 *[Favicon.io](https://favicon.io/) To create favicon.
 
+**JavaScript** Handles the interactive accordion menu and form 
+                validation.
+**Fetch API**: Sends form data to the backend asynchronously.
+**Heroku**: The API endpoint is hosted on Heroku for handling 
+           reservations.
+
+
 *   Media queries for mobile responsiveness.
-*   JavaScript: Handles the interactive accordion menu and form 
-    validation.
+
 *   Font Awesome: For adding icons, such as social media links 
     and menu icons.
 *   Responsive Design: Ensures compatibility with various 
