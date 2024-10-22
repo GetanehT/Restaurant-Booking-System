@@ -66,7 +66,8 @@ Content
 Home Page (index.html)
 Smartphones Deal Webpage
 The Ethiopian Flavors Restaurant Booking System is a responsive web application designed to provide an intuitive and user-friendly platform for restaurant customers to view the menu, check opening hours, and make reservations. The site features a clean and modern design, with a focus on accessibility and performance across devices.
-![home page](https://github.com/user-attachments/assets/d84c1af9-48d4-451a-86a5-aa74872ec1b5)
+
+![home page](https://github.com/user-attachments/asset/images/ethipian flavorhome.png)
 
 
 
