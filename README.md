@@ -274,7 +274,7 @@ This README provides a comprehensive guide for the Restaurant Reservation System
 
  ### File Structure
 
-![File Structure](asset/images/Screenshot 2024-10-16 175802.png)
+![File Structure](https://github.com/GetanehT/Restaurant-Booking-System/blob/main/asset/images/Screenshot%202024-10-23%20145839.png)
 
 
 
@@ -319,12 +319,12 @@ This README provides a comprehensive guide for the Restaurant Reservation System
 
 ### Deployment
 
-* The site is deployed using GitHub Pages  [Restauran-Booking-System] (https://github.com/GetanehT/RESTAURANT-BOOKING-SYSTEM)
+* The site is deployed using GitHub Pages  [Restaurant-Booking-System] (https://github.com/GetanehT/RESTAURANT-BOOKING-SYSTEM)
 
 To Deploy the site using GitHub Pages:
 
 1.Login (or signup) to Github.
-2.Go to the repository for this project, [Restauran-Booking- 
+2.Go to the repository for this project, [Restaurant-Booking- 
   System](https://getaneht.github.io/RESTAURANT-BOOKING-SYSTEM/)
 3.Click the settings button.
 4.Select pages in the left hand navigation menu.
